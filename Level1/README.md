@@ -2,7 +2,7 @@
 
 ## 001. 짝수와 홀수
 
-- **solution001.java**
+- **[solution001.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution001.java)**
 - **문제 설명**
   - 정수 num이 짝수일 경우 "Even"을 반환하고 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성해주세요.
 - **제한 조건**
@@ -19,7 +19,7 @@
 
 ## 002. 핸드폰 번호 가리기
 
-- **solution002.java**
+- **[solution002.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution002.java)**
 - **문제 설명**
   - 프로그래머스 모바일은 개인정보 보호를 위해 고지서를 보낼 때 고객들의 전화번호의 일부를 가립니다.
   - 전화번호가 문자열 phone_number로 주어졌을 때, 전화번호의 뒷 4자리를 제외한 나머지 숫자를 전부 `*`으로 가린 문자열을 리턴하는 함수, solution을 완성해주세요.
@@ -36,7 +36,7 @@
 
 ## 003. 두 정수 사이의 합
 
-- **solution003.java**
+- **[solution003.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution003.java)**
 - **문제 설명**
   - 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 리턴하는 함수, solution을 완성하세요.
   - 예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다.
@@ -56,7 +56,7 @@
 
 ## 004. 평균 구하기
 
-- **solution004.java**
+- **[solution004.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution004.java)**
 - **문제 설명**
   - 정수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성해보세요.
 - **제한 조건**
@@ -73,7 +73,7 @@
 
 ## 005. 직사각형 별찍기
 
-- **solution005.java**
+- **[solution005.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution005.java)**
 - **문제 설명**
   - 이 문제에는 표준 입력으로 두 개의 정수 n과 m이 주어집니다.
   - 별(*) 문자를 이용해 가로의 길이가 n, 세로의 길이가 m인 직사각형 형태를 출력해보세요.
@@ -97,7 +97,7 @@
 
 ## 006. 약수의 합
 
-- **solution006.java**
+- **[solution006.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution006.java)**
 - **문제 설명**
   - 정수 n을 입력받아 n의 약수를 모두 더한 값을 리턴하는 함수, solution을 완성해주세요.
 - **제한 조건**
@@ -113,7 +113,7 @@
 
 ## 007. 문자열 내 p와 y의 개수
 
-- **solution007.java**
+- **[solution007.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution007.java)**
 - **문제 설명**
   - 대문자와 소문자가 섞여있는 문자열 s가 주어집니다.
   - s에 'p'의 개수와 'y'의 개수를 비교해 같으면 True, 다르면 False를 return 하는 solution를 완성하세요.
@@ -134,7 +134,7 @@
 
 ## 008. 문자열 내림차순으로 배치하기
 
-- **solution008.java**
+- **[solution008.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution008.java)**
 - **문제 설명**
   - 문자열 s에 나타나는 문자를 큰것부터 작은 순으로 정렬해 새로운 문자열을 리턴하는 함수, solution을 완성해주세요.
   - s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보다 작은 것으로 간주합니다.
@@ -150,7 +150,7 @@
 
 ## 009. 문자열 내 마음대로 정렬하기
 
-- **solution009.java**
+- **[solution009.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution009.java)**
 - **문제 설명**
   - 문자열로 구성된 리스트 strings와, 정수 n이 주어졌을 때, 각 문자열의 인덱스 n번째 글자를 기준으로 오름차순 정렬하려 합니다.
   - 예를 들어 strings가 ["sun", "bed", "car"]이고 n이 1이면 각 단어의 인덱스 1의 문자 "u", "e", "a"로 strings를 정렬합니다.
@@ -170,7 +170,7 @@
 
 ## 010. 가운데 글자 가져오기
 
-- **solution010.java**
+- **[solution010.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution010.java)**
 - **문제 설명**
   - 단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
 - **제한 조건**
@@ -186,7 +186,7 @@
 
 ## 011. 나누어 떨어지는 숫자 배열
 
-- **solution011.java**
+- **[solution011.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution011.java)**
 - **문제 설명**
   - array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을 반환하는 함수, solution을 작성해주세요.
   - divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요.
@@ -205,6 +205,21 @@
     | [3,2,6]       | 10      | [-1]          |
     
     
+## 012. 하샤드 수
 
+- **[solution012.java](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/solution012.java)**
+- **문제 설명**
+  - 양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어져야 합니다.
+  - 예를 들어 18의 자릿수 합은 1+8=9이고, 18은 9로 나누어 떨어지므로 18은 하샤드 수입니다.
+  - 자연수 x를 입력받아 x가 하샤드 수인지 아닌지 검사하는 함수, solution을 완성해주세요.
+- **제한 조건**
+  - x는 1 이상, 10000 이하인 정수입니다.
+    
+- **입출력 예**
 
-
+    | arr  | return |
+    | ---- | :----: |
+    | 10   |  true  |
+    | 12   |  true  |
+    | 11   | false  |
+    | 13   | false  |
