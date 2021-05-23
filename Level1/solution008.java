@@ -1,4 +1,4 @@
-class Solution {
+class Solution008 {
 
     /**
      * 해결안

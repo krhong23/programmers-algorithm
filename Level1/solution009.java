@@ -1,4 +1,4 @@
-class Solution {
+class Solution009 {
 
     public String[] solution(String[] strings, int n) {
         for (int i = 0; i < strings.length; i++) {

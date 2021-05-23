@@ -1,4 +1,4 @@
-class Solution {
+class Solution001 {
     public String solution(int num) {
         return (num % 2) == 0 ? "Even" : "Odd";
     }

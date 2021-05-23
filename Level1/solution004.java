@@ -1,4 +1,4 @@
-class Solution {
+class Solution004 {
 
     public double solution(int[] arr) {
         double answer = 0;

@@ -1,6 +1,6 @@
 import java.util.stream.Stream;
 
-class Solution {
+class Solution012 {
 
     public boolean solution01(int x) {
         String temp = Integer.toString(x);
