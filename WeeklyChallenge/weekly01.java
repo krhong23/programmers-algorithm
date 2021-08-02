@@ -8,3 +8,9 @@ class Solution {
         return answer < 0 ? Math.abs(answer) : 0;
     }
 }
+
+class AnotherSolution {
+    public long solution(long price, long money, long count) {
+        return Math.max(price * (count * (count + 1) / 2) - money, 0);
+    }
+}
