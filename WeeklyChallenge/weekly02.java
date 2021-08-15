@@ -1,49 +1,55 @@
 class Solution {
     public String solution(int[][] scores) {
         String answer = "";
+
         for (int i = 0; i < scores.length; i++) {
-            int my = scores[i][i];
-            int max = scores[i][0];
-            int min = scores[i][0];
+            int me = scores[i][i];
+            int max = scores[i][i];
+            int min = scores[i][i];
 
             int sum = 0;
-            for (int j = 0; j < scores[i].length; j++) {
-                if (max < scores[i][j]) {
-                    max = scores[i][j];
+            float avg = 0;
+            int rowCount = 0;
+            int len = scores.length;
+
+            for (int j = 0; j < len; j++) {
+                if (scores[j][i] > max) {
+                    max = scores[j][i];
+                } else if (scores[j][i] < min) {
+                    min = scores[j][i];
                 }
-                if (min > scores[i][j]) {
-                    min = scores[i][j];
-                }
-                sum += scores[i][j];
+                sum += scores[j][i];
             }
 
-            int average = 0;
-            System.out.println("my:" + my + ", max:" + max + ", min:" + min);
-            if (my > max || my < min) {
-                average = (sum - my) / (scores.length - 1);
-
-            } else {
-                average = sum / scores.length;
-
+            if (me == max || me == min) {
+                for (int j = 0; j < scores.length; j++) {
+                    if (scores[j][i] == me) {
+                        rowCount += 1;
+                    }
+                }
             }
-            System.out.println("i:" + i + ", sum:" + sum + ", avg:" + average);
-            answer += findCredit(average);
+
+            if (rowCount == 1) {
+                sum -= me;
+                len -= 1;
+            }
+            avg = (float) sum / len;
+            answer += findCredit(avg);
         }
         return answer;
     }
 
-    private String findCredit(int score) {
-        if (score <= 90) {
+    private String findCredit(float score) {
+        if (score >= 90) {
             return "A";
-        } else if (score <= 80) {
+        } else if (score >= 80) {
             return "B";
-        } else if (score <= 70) {
+        } else if (score >= 70) {
             return "C";
-        } else if (score <= 50) {
+        } else if (score >= 50) {
             return "D";
         } else {
             return "F";
         }
-
     }
 }
