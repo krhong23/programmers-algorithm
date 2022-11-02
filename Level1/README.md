@@ -293,4 +293,17 @@
 - **문제 풀기**
     - 완전탐색
       - Brute-Force: 단순히 for문과 if문 등으로 모든 case들을 만들어 답을 구하는 방법
-    
+
+## 016. 강원도에 위치한 생산공장 목록 출력하기
+
+- **[Solution016.sql](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/Solution016.sql)**
+- **문제 설명**
+    - 다음은 식품공장의 정보를 담은 FOOD_FACTORY 테이블입니다.
+    - FOOD_FACTORY 테이블은 다음과 같으며 FACTORY_ID, FACTORY_NAME, ADDRESS, TLNO는 각각 공장 ID, 공장 이름, 주소, 전화번호를 의미합니다.
+    - FOOD_FACTORY 테이블에서 강원도에 위치한 식품공장의 공장 ID, 공장 이름, 주소를 조회하는 SQL문을 작성해주세요. 
+    - 이때 결과는 공장 ID를 기준으로 오름차순 정렬해주세요.
+
+- **문제 풀기**
+    - LIKE 절
+      - _ : 글자 수를 정하여 찾음.
+      - % : 글자 수를 정하지 않고 찾음.
