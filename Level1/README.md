@@ -307,7 +307,7 @@
     - LIKE 절
       - _ : 글자 수를 정하여 찾음.
       - % : 글자 수를 정하지 않고 찾음.
-      - 
+
 ## 017. 3월에 태어난 여성 회원 목록 출력하기
 
 - **[Solution017.sql](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/Solution017.sql)**
@@ -319,3 +319,16 @@
 
 - **문제 풀기**
     - DATE_FORMAT(날짜 , 형식) : 날짜를 지정한 형식으로 출력
+
+## 018. 서울에 위치한 식당 목록 출력하기
+
+- **[Solution018.sql](https://github.com/krhong23/programmers-algorithm/blob/master/Level1/Solution018.sql)**
+- **문제 설명**
+    - 다음은 식당의 정보를 담은 REST_INFO 테이블과 식당의 리뷰 정보를 담은 REST_REVIEW 테이블입니다.
+    - REST_INFO 테이블은 다음과 같으며 REST_ID, REST_NAME, FOOD_TYPE, VIEWS, FAVORITES, PARKING_LOT, ADDRESS, TEL은 식당 ID, 식당 이름, 음식 종류, 조회수, 즐겨찾기수, 주차장 유무, 주소, 전화번호를 의미합니다.
+    - REST_REVIEW 테이블은 다음과 같으며 REVIEW_ID, REST_ID, MEMBER_ID, REVIEW_SCORE, REVIEW_TEXT,REVIEW_DATE는 각각 리뷰 ID, 식당 ID, 회원 ID, 점수, 리뷰 텍스트, 리뷰 작성일을 의미합니다.
+    - REST_INFO와 REST_REVIEW 테이블에서 서울에 위치한 식당들의 식당 ID, 식당 이름, 음식 종류, 즐겨찾기수, 주소, 리뷰 평균 점수를 조회하는 SQL문을 작성해주세요.
+    - 이때 리뷰 평균점수는 소수점 세 번째 자리에서 반올림 해주시고 결과는 평균점수를 기준으로 내림차순 정렬해주시고, 평균점수가 같다면 즐겨찾기수를 기준으로 내림차순 정렬해주세요.
+
+- **문제 풀기**
+    - ROUND(값, 자릿수) : 반올림
